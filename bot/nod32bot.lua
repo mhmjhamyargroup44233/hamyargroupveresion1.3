@@ -416,7 +416,8 @@ HamyarGroup Commands list :
 !Lock English
 قفل چت انگلیسی در گروه
 
-!antiflood enable
+!antiflood enable  قفل
+!antiflood disable  باز کردن
 قفل و باز کردن حساسیت اسپم
 
 !lock member 
