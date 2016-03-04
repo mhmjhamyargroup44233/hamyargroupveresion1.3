@@ -208,6 +208,23 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
+    "Echo",
+    "English-Lock",  
+    "addplug",
+    "anti-flood",
+    "auto_leave",    
+    "channels",   
+    "emoji_lock",
+    "hello",
+    "images",    
+    "info",
+    "inviteme",    
+    "leave",
+    "lock_username",
+    "sendplug",
+    "translate",
+    "weather",
+    "Web_Shot",
     "all",
     "anti_ads",
     "anti_bot",
@@ -226,6 +243,7 @@ function create_config( )
     "gps",
     "ingroup",
     "inpm",
+    "filter",
     "inrealm",
     "invite",
     "leave_ban",
@@ -244,14 +262,14 @@ function create_config( )
     "time",
     "version"
     },
-	    sudo_users = {158990680},--Sudo users
+	    sudo_users = {30373376},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
 https://github.com/BH-YAGHI/NOD32-BOT.git
 
-channel : @Nod32team
-sodu : @behrooZyaghi
+channel : @hamyargroupp
+sodu : @Mhmafi
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -320,7 +338,7 @@ ch: @Nod32team
 
 ]],
     help_text = [[
-NOD32 Commands list :
+HamyarGroup Commands list :
  
 1-banhammer list ^
  
@@ -517,9 +535,8 @@ NOD32 Commands list :
 you can use both "/" and "!" 
 .شما میتوانید از ! و / استفاده کنید
 
-channel: @Nod32Team
+channel: @HamyarGroupp
 
-G00D LUCK ^_^
 ]]
    }
   serialize_to_file(config, './data/config.lua')
