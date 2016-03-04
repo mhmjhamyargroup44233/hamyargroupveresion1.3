@@ -215,7 +215,6 @@ function create_config( )
     "auto_leave",    
     "channels",   
     "emoji_lock",
-    "hello",
     "images",    
     "info",
     "inviteme",    
@@ -340,7 +339,7 @@ ch: @Nod32team
     help_text = [[
 HamyarGroup Commands list :
  
-1-banhammer list ^
+1-دستورات مدیریت
  
 !kick [username|id]
 (کیک کردن شخص (حتی با ریپلی)
@@ -357,8 +356,6 @@ HamyarGroup Commands list :
 !kickme
 خروج از گروه
 
-2-Statistics list ^
-
 !who
 لیست+ایدی همه اعضا
 
@@ -374,8 +371,6 @@ HamyarGroup Commands list :
 !banlist
 لیست اعضا بن شده
 
-3-Rate Member ^
-
 !setowner [id]
 (id ایجاد مدیر جدید (همراه 
 
@@ -385,7 +380,7 @@ HamyarGroup Commands list :
 !demote [username]
 (برکنار کردن ادمین (همراه ریپلی)
 
-4-General changes ^
+2-دستورات لازم گروه
 
 !setname [name]
 ایجاد اسم جدید برای گروه
@@ -402,7 +397,7 @@ HamyarGroup Commands list :
 !setflood [value]
 حساسیت به اسپم در گروه
 
-5-View details ^
+3-دستورات گرفتن اطلاعات گروه
 
 !about
 درباره گروه
@@ -416,7 +411,13 @@ HamyarGroup Commands list :
 !help
 لیست دستورات ربات
 
-6-Security Group ^
+4-دستورات امنیتی گروه
+
+!Lock English
+قفل چت انگلیسی در گروه
+
+!antiflood enable
+قفل و باز کردن حساسیت اسپم
 
 !lock member 
 قفل ورود اعضا جدید
@@ -448,13 +449,13 @@ HamyarGroup Commands list :
 !antibot disable
 ورود ربات ها ازاد
 
-!unlock xxxx
-[*name*leave*member]
-[*fosh*ads]
-[chat*join*photo]
+!unlock 
+*name*leave*member
+*fosh*ads
+chat*join*photo
 باز کردن دستورات قفل شده
 
-7-Fun time ^
+5-امکانات گروه 
 
 !time country city
 ساعت کشور مورد نظر
@@ -471,7 +472,7 @@ HamyarGroup Commands list :
  !calc 3+1
  انجام محاسبات ریاضی
 
-8-Service Provider ^
+6-دستورات عضوگیری گروه
 
 !newlink
 ایجاد لینک جدید
@@ -487,7 +488,7 @@ HamyarGroup Commands list :
 اضافه کردن شخص تو گروه
 (حتما شماره ربات را سیو کرده باشد)
 
-9-Member Profile and Group ^
+7-دستورات مدیریت پیشرفته گروه
 !owner
 مدیر گروه
 
@@ -503,7 +504,7 @@ HamyarGroup Commands list :
 !settings
 تنظیمات فعلی گروه
 
-10-filter word Mode ^
+8-دستورات فیلتر کلمات
 
 !filter set (word)
 اضافه کردن کلمه جدید به لیست
@@ -517,7 +518,7 @@ HamyarGroup Commands list :
 !filterlist
 لیست کلمات فیلتر شده
 
-11-bot number & support ^
+9-دستورات پشتیبانی
 
 !botnumber
 دریافت شماره ربات
