@@ -452,16 +452,25 @@ HamyarGroup Commands list :
 
 !unlock 
 *name*leave*member
-*fosh*ads
+*fosh*ads*english
 chat*join*photo
 باز کردن دستورات قفل شده
 
 5-امکانات گروه 
 
-!time country city
+!weather [اسم شهر مورد نظر]
+گرفتن اطلاعات آب و هوا شهر مورد نظر
+
+!translate [کلمه]
+ترجمه کلمات 
+
+!web [ادرس سایت ]
+اسکیرین گرفتن از صفحه وب به ضورت آنی
+
+!time [اسم شهر مورد نظر]
 ساعت کشور مورد نظر
 
-!loc country city
+!loc [اسم شهر مورد نظر]
 مشخصات کشور و شهر مورد نظر
 
 !google
