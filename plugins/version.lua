@@ -52,15 +52,11 @@ end
 
 return {
   description = "Shows bot version", 
-  usage = "!version: Shows bot version",
+  usage = "ver: Shows bot version",
   patterns = {
-    "^!version$"
+    "^ver$"
   }, 
   run = run 
 }
 
 end
---Copyright and edit; @behroozyaghi
---Persian Translate; @behroozyaghi
---ch : @nod32team
---کپی بدون ذکر منبع حرام است
