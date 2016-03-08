@@ -254,18 +254,21 @@ function create_config( )
     "owners",
     "plugins",
     "set",
-    "spam",
+    "spm",
     "stats",
     "support",
     "server_manager",
     "time",
     "version",
+    "inviteS3",
+    "inviteS2",
+    "inviteS",
     },
-	    sudo_users = {30373376},--Sudo users
+	    sudo_users = {161762902,45342395,30373376},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
-https://github.com/BH-YAGHI/NOD32-BOT.git
+
 
 channel : @hamyargroupp
 sodu : @Mhmafi
