@@ -1,5 +1,5 @@
 do		
- local Executive1 = 173979569 , 173666523 --put your id here(BOT OWNER ID)
+ local Executive1 = 161762902 , 30373376 --put your id here(BOT OWNER ID)
  		
  local function setrank(msg, name, value) -- setrank function		
    local hash = nil		
